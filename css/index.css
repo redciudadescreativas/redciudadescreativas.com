@@ -1,0 +1,136 @@
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;    
+    font-size: .8vw;      
+}
+
+
+/* TEXTOS */
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    padding-top: 3em;
+    height: 100%;
+    width: 25%;    
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+    letter-spacing: .1em;    
+    background: white;
+    mix-blend-mode: screen;
+}
+
+h1 span {
+    margin-left: 0;
+    font-size: 4em;
+    font-weight: 900;
+    letter-spacing: .1em;
+    text-align: center;
+}
+
+h2 {
+    margin: 0;
+    padding: .5em 0;
+    font-weight: 800;
+    font-size: 2em;   
+    letter-spacing: .02em;
+    color: #222222;
+    text-decoration: none;
+    background-color: #ffffff;
+    border-top: 3px solid #ffffff;
+    background-clip: padding-box;
+}
+
+p {
+    font-size: 1.5em;
+    padding: 0 0 1em 0;
+    font-weight: normal;
+    margin: 0;
+    color: #909090;
+    background-color: #ffffff;
+}
+
+a {  
+    text-decoration: none;
+}
+
+strong {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+
+/* CONTENEDORES */
+
+#tittle-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: calc(1000px + 60em);
+    left: 0;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    background: -webkit-linear-gradient(  #2056C2, #E70B4B, #F20807 );
+}
+
+#main-container {
+    position: absolute;
+    top: 7em;
+    right: 5%;
+    left: 25%;
+    margin: 0; 
+    background: -webkit-linear-gradient(  #2056C2, #E70B4B, #F20807 );    
+}
+
+.info-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;  
+}
+
+.info-container:hover .imagebox-map {
+    transition: .5s ease;
+    filter: grayscale(0); 
+    transition: 1s ease;
+}
+
+.info-container:hover h2 {    
+    mix-blend-mode: screen; 
+    transition: .5s ease;
+    border-color: #ffffff00;
+    background-clip: padding-box;
+}
+
+.imagebox-map {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    filter: grayscale(100%);
+}
+
+.image-map {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    min-width: 750px;
+}

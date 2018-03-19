@@ -1,0 +1,61 @@
+.marker-cluster-small {
+	background-color: rgba(252, 67, 114, 0.6);
+	}
+.marker-cluster-small div {
+	background-color: rgba(182, 25, 46, 0.6);
+	}
+
+.marker-cluster-medium {
+	background-color: rgba(111, 20, 185, 0.6);
+	}
+.marker-cluster-medium div {
+	background-color: rgba(152, 0, 182, 0.6);
+	}
+
+.marker-cluster-large {
+	background-color: rgba(115, 179, 253, 0.6);
+	}
+.marker-cluster-large div {
+	background-color: rgba(23, 63, 241, 0.6);
+	}
+
+	/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+	background-color: rgb(252, 67, 114);
+	}
+.leaflet-oldie .marker-cluster-small div {
+	background-color: rgb(182, 25, 46);
+	}
+
+.leaflet-oldie .marker-cluster-medium {
+	background-color: rgb(111, 20, 185);
+	}
+.leaflet-oldie .marker-cluster-medium div {
+	background-color: rgb(152, 0, 182);
+	}
+
+.leaflet-oldie .marker-cluster-large {
+	background-color: rgb(115, 179, 253);
+	}
+.leaflet-oldie .marker-cluster-large div {
+	background-color: rgb(23, 63, 241);
+}
+
+.marker-cluster {
+	background-clip: padding-box;
+	border-radius: 20px;
+	}
+.marker-cluster div {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+
+	text-align: center;
+	border-radius: 15px;
+	font: 12px "Roboto", sans-serif;
+	font-weight: 600;
+	}
+.marker-cluster span {
+	line-height: 30px;
+	}
