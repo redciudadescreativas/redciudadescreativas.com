@@ -77,7 +77,7 @@
                 maxZoom: 19,
                 minZoom: 1,
                 onEachFeature: function (feature, layer) {
-                    popupContent = "<b>" + feature.properties.NOMBEMPRESA + "</b><br>" + feature.properties.SECTOR + "</b><br>" + feature.properties.SUBSECTOR + "</b>";
+                    popupContent = "<b>" + feature.properties.EMPRESA + "</b><br>" + feature.properties.SECTOR + "</b><br>" + feature.properties.SUBSECTOR + "</b>";
                     layer.bindPopup(popupContent);
                 },
                 pointToLayer: function (feature, latlng) {
